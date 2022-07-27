@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T09:36:49.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.0" etag="DIu5i2lfSvm8ieMQpAZQ" type="github"><diagram id="dJWihcSk0her-sCwu1qD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-27T09:48:33.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kG0qB83RhPamOdGE1Wbf" version="20.2.0" type="github">
+  <diagram id="dJWihcSk0her-sCwu1qD" name="第 1 页">
+    <mxGraphModel dx="926" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fsV72lbkyJY5YVNgxw4G-1" value="&lt;h1&gt;改变元素的默认行为&lt;/h1&gt;&lt;div&gt;浏览器自带一个包含默认样式的样式表，默认对任何页面有效。&lt;/div&gt;&lt;div&gt;我们可以修改默认样式。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="420" height="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
