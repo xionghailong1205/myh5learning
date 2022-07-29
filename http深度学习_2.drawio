@@ -1,1 +1,226 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T10:50:50.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.2" etag="q_zeHEehwGDp60iTcblx" type="github"><diagram id="dQl33G91v_7WCRb5gb6H">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-29T15:54:49.786Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jo2sg-eodOaBl_7Rk98N" version="20.2.2" type="github">
+  <diagram id="dQl33G91v_7WCRb5gb6H" name="第 1 页">
+    <mxGraphModel dx="1164" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-2" value="URL与资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-5" value="&lt;ul&gt;&lt;li&gt;URL语法，以及各种URL组件的含义及其所做的工作&lt;/li&gt;&lt;li&gt;很多Web客户端都支持URL快捷方式，包括相对URL和自动扩展URL&lt;/li&gt;&lt;li&gt;URL编码和字符规则&lt;/li&gt;&lt;li&gt;支持各种因特网信息系统的常见URL方案&lt;/li&gt;&lt;li&gt;URL的未来，包括URN—这种框架可以在对象从一处搬移到另一处时，保持稳定的访问名称。&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="390" y="110" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;本章内容&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-7" value="&lt;ul&gt;&lt;li&gt;URL的第一部分（http）是URL方案（scheme）。方案可以告知Web客户端怎样访问资源。在这个例子中，URL说明要使用HTTP协议。&lt;/li&gt;&lt;li&gt;URL的第二部分(www.joes-hardware.com)指的是服务器的位置。这部分告知Web客户端资源位于何处。&lt;/li&gt;&lt;li&gt;URL的第三部分(/seasonal/index-fall.html)是资源路径。路径说明了请求的是服务器上哪个特定的本地资源。&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="390" y="440" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;URL三个部分&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;url统一资源定位符&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-10" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 14px; font-weight: normal;&quot;&gt;URL（统一资源定位符）提供了一种统一的资源命名方式。大多数URL都是同样的：&quot;方案://服务器位置/路径&quot;结构。因此，对网络上的每个资源以及获取这些资源的每种方式来说，命名资源的方法都只有一种，这样不管是谁都可以用名字找到这个资源了。但是，事情并不是一开始就是这样的。&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="720" width="560" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-15" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="220" width="880" height="402" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-15">
+          <mxGeometry width="880" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;组件&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b1ddf0;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#10739e;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-16">
+          <mxGeometry width="166" height="39" as="geometry">
+            <mxRectangle width="166" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-18" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;描述&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b1ddf0;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#10739e;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-16">
+          <mxGeometry x="166" width="614" height="39" as="geometry">
+            <mxRectangle width="614" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-19" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;默认值&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b1ddf0;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#10739e;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-16">
+          <mxGeometry x="780" width="100" height="39" as="geometry">
+            <mxRectangle width="100" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-15">
+          <mxGeometry y="39" width="880" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-21" value="方案" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b0e3e6;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=center;strokeColor=#0e8088;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-20">
+          <mxGeometry width="166" height="51" as="geometry">
+            <mxRectangle width="166" height="51" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-22" value="&lt;p&gt;访问服务器以获取资源时要使用哪种协议&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-20">
+          <mxGeometry x="166" width="614" height="51" as="geometry">
+            <mxRectangle width="614" height="51" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-23" value="无" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-20">
+          <mxGeometry x="780" width="100" height="51" as="geometry">
+            <mxRectangle width="100" height="51" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-28" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-15">
+          <mxGeometry y="90" width="880" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-29" value="用户" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b0e3e6;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#0e8088;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-28">
+          <mxGeometry width="166" height="41" as="geometry">
+            <mxRectangle width="166" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-30" value="某种方案访问资源时需要的用户名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-28">
+          <mxGeometry x="166" width="614" height="41" as="geometry">
+            <mxRectangle width="614" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-31" value="匿名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=14;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-28">
+          <mxGeometry x="780" width="100" height="41" as="geometry">
+            <mxRectangle width="100" height="41" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-32" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-15">
+          <mxGeometry y="131" width="880" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-33" value="密码" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b0e3e6;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#0e8088;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-32">
+          <mxGeometry width="166" height="38" as="geometry">
+            <mxRectangle width="166" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-34" value="用户名后面可能要包含的密码，中间由冒号(:)分隔" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-32">
+          <mxGeometry x="166" width="614" height="38" as="geometry">
+            <mxRectangle width="614" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-35" value="&amp;lt;E-mail地址&amp;gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=14;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-32">
+          <mxGeometry x="780" width="100" height="38" as="geometry">
+            <mxRectangle width="100" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-36" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-15">
+          <mxGeometry y="169" width="880" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-37" value="主机" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b0e3e6;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#0e8088;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-36">
+          <mxGeometry width="166" height="39" as="geometry">
+            <mxRectangle width="166" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-38" value="资源宿主服务器的主机名或点分IP地址" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-36">
+          <mxGeometry x="166" width="614" height="39" as="geometry">
+            <mxRectangle width="614" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-39" value="无" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=14;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-36">
+          <mxGeometry x="780" width="100" height="39" as="geometry">
+            <mxRectangle width="100" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-40" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-15">
+          <mxGeometry y="208" width="880" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-41" value="端口" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b0e3e6;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#0e8088;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-40">
+          <mxGeometry width="166" height="38" as="geometry">
+            <mxRectangle width="166" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-42" value="资源宿主服务器正在监听的端口号。很多方案都有默认端口号（HTTP的默认端口号为80）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-40">
+          <mxGeometry x="166" width="614" height="38" as="geometry">
+            <mxRectangle width="614" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-43" value="每个方案特有" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=14;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-40">
+          <mxGeometry x="780" width="100" height="38" as="geometry">
+            <mxRectangle width="100" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-24" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-15">
+          <mxGeometry y="246" width="880" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-25" value="路径" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b0e3e6;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#0e8088;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-24">
+          <mxGeometry width="166" height="39" as="geometry">
+            <mxRectangle width="166" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-26" value="服务器上资源的本地名，由一个斜杠(/)将其与前面的URL组件分隔开来。路径组件的语法是与服务器和方案有关的。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;align=left;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-24">
+          <mxGeometry x="166" width="614" height="39" as="geometry">
+            <mxRectangle width="614" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-27" value="无" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=14;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-24">
+          <mxGeometry x="780" width="100" height="39" as="geometry">
+            <mxRectangle width="100" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-56" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-15">
+          <mxGeometry y="285" width="880" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-57" value="参数" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b0e3e6;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#0e8088;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-56">
+          <mxGeometry width="166" height="39" as="geometry">
+            <mxRectangle width="166" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-58" value="某些方案会用这个组件来指定输入参数。参数为名/值对。URL中可以包含多个参数字段，它们互相之间以及与路径的其余部分之间用分号(;)分隔" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#36393d;align=left;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-56">
+          <mxGeometry x="166" width="614" height="39" as="geometry">
+            <mxRectangle width="614" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-59" value="无" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=14;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-56">
+          <mxGeometry x="780" width="100" height="39" as="geometry">
+            <mxRectangle width="100" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-52" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-15">
+          <mxGeometry y="324" width="880" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-53" value="查询" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b0e3e6;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#0e8088;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-52">
+          <mxGeometry width="166" height="39" as="geometry">
+            <mxRectangle width="166" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-54" value="某些方案会用这个组件传递参数以激活应用程序（比如数据库、公告板、搜索引擎以及其他因特网网关）。查询组件的内容没有通用格式。用字符“？”将其与URL的其余部分分隔开来。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#36393d;align=left;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-52">
+          <mxGeometry x="166" width="614" height="39" as="geometry">
+            <mxRectangle width="614" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-55" value="无" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=14;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-52">
+          <mxGeometry x="780" width="100" height="39" as="geometry">
+            <mxRectangle width="100" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-48" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-15">
+          <mxGeometry y="363" width="880" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-49" value="片段" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b0e3e6;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#0e8088;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-48">
+          <mxGeometry width="166" height="39" as="geometry">
+            <mxRectangle width="166" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-50" value="一小片或一部分资源的名字。引用对象时，不会将frag字段传送给服务器；这个字段是在客户端内部使用的。通过字符“#”将其与URL的其余部分分隔开来" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;fontSize=14;strokeColor=#36393d;align=left;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-48">
+          <mxGeometry x="166" width="614" height="39" as="geometry">
+            <mxRectangle width="614" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-51" value="无" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#cce5ff;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;fontSize=14;strokeColor=#36393d;" vertex="1" parent="yuBNwfh4JPZWKL3ttyxz-48">
+          <mxGeometry x="780" width="100" height="39" as="geometry">
+            <mxRectangle width="100" height="39" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-60" value="&lt;h1&gt;URL的语法&lt;/h1&gt;&lt;div&gt;URL提供了一种定位因特网上任意资源的手段，但这些资源是可以通过各种不同的方案（比如HTTP、FTP、SMTP）来访问的，因为URL语法会随方案的不同而有所不同。&lt;/div&gt;&lt;div&gt;大部分URL都遵循通用的URL语法，而且不同URL方案的风格和语法都有不少重叠。&lt;/div&gt;&lt;div&gt;大多数URL方案的URL语法都建立在这个由9部分构成的通用格式上：&lt;/div&gt;&lt;div&gt;&amp;lt;scheme&amp;gt;://&amp;lt;user&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;path&amp;gt;;&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="70" width="780" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-61" value="&lt;h1&gt;方案-使用什么协议&lt;/h1&gt;&lt;div&gt;方案实际上是规定如何访问指定资源的主要标识符，它会告诉负责解析URL的应用程序应该使用什么协议。在我们这个简单的HTTP URL中所使用的方案就是http。&lt;/div&gt;&lt;div&gt;方案组件必须以一个字母符号开始，由第一个“：”符号将其与URL的其余部分分隔开来。方案名是大小写无关的。&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="660" width="780" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-62" value="&lt;h1&gt;主机与端口&lt;/h1&gt;&lt;div&gt;要想在因特网上找到资源，应用程序要知道是哪台机器装载了资源，以及在那台机器的什么地方可以找到能对目标资源进行访问的服务器。URL的主机和端口组件提供了这两组信息。&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="780" width="780" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-63" value="&lt;h1&gt;用户名和密码&lt;/h1&gt;&lt;div&gt;更有趣的组件是用户和密码组件。很多服务器都要求输入用户名和密码才会允许用户访问数据。FTP服务器就是这样一个常见的实例。&lt;/div&gt;&lt;div&gt;如果某应用程序使用的URL方案要求输入用户名和密码，比如FTP，但用户没有提供，它通常会插入一个默认的用户名和密码。比如，如果向浏览器提供一个FTP URL，但没有指定用户名和密码，它就会插入anonymous（匿名用户）作为你的用户名，并发送一个默认密码（IE会发送IEUser。）。&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="900" width="780" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
