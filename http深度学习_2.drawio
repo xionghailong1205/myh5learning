@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T15:54:49.786Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jo2sg-eodOaBl_7Rk98N" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-29T15:58:51.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="x3hhkFnXxB9lRjU4lKbe" version="20.2.2" type="github">
   <diagram id="dQl33G91v_7WCRb5gb6H" name="第 1 页">
-    <mxGraphModel dx="1164" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="998" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,7 +23,7 @@
           <mxGeometry x="390" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yuBNwfh4JPZWKL3ttyxz-10" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 14px; font-weight: normal;&quot;&gt;URL（统一资源定位符）提供了一种统一的资源命名方式。大多数URL都是同样的：&quot;方案://服务器位置/路径&quot;结构。因此，对网络上的每个资源以及获取这些资源的每种方式来说，命名资源的方法都只有一种，这样不管是谁都可以用名字找到这个资源了。但是，事情并不是一开始就是这样的。&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="270" y="720" width="560" height="160" as="geometry" />
+          <mxGeometry x="390" y="700" width="560" height="160" as="geometry" />
         </mxCell>
         <mxCell id="yuBNwfh4JPZWKL3ttyxz-15" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1110" y="220" width="880" height="402" as="geometry" />
@@ -208,7 +208,7 @@
             <mxRectangle width="100" height="39" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yuBNwfh4JPZWKL3ttyxz-60" value="&lt;h1&gt;URL的语法&lt;/h1&gt;&lt;div&gt;URL提供了一种定位因特网上任意资源的手段，但这些资源是可以通过各种不同的方案（比如HTTP、FTP、SMTP）来访问的，因为URL语法会随方案的不同而有所不同。&lt;/div&gt;&lt;div&gt;大部分URL都遵循通用的URL语法，而且不同URL方案的风格和语法都有不少重叠。&lt;/div&gt;&lt;div&gt;大多数URL方案的URL语法都建立在这个由9部分构成的通用格式上：&lt;/div&gt;&lt;div&gt;&amp;lt;scheme&amp;gt;://&amp;lt;user&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;path&amp;gt;;&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-60" value="&lt;h1&gt;URL的语法&lt;/h1&gt;&lt;div&gt;URL提供了一种定位因特网上任意资源的手段，但这些资源是可以通过各种不同的方案（比如HTTP、FTP、SMTP）来访问的，因为URL语法会随方案的不同而有所不同。&lt;/div&gt;&lt;div&gt;大部分URL都遵循通用的URL语法，而且不同URL方案的风格和语法都有不少重叠。&lt;/div&gt;&lt;div&gt;大多数URL方案的URL语法都建立在这个由9部分构成的通用格式上：&lt;/div&gt;&lt;div&gt;&amp;lt;scheme&amp;gt;://&amp;lt;user&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;path&amp;gt;;&amp;lt;params&amp;gt;?&amp;lt;query&amp;gt;#&amp;lt;frag&amp;gt;&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1110" y="70" width="780" height="140" as="geometry" />
         </mxCell>
         <mxCell id="yuBNwfh4JPZWKL3ttyxz-61" value="&lt;h1&gt;方案-使用什么协议&lt;/h1&gt;&lt;div&gt;方案实际上是规定如何访问指定资源的主要标识符，它会告诉负责解析URL的应用程序应该使用什么协议。在我们这个简单的HTTP URL中所使用的方案就是http。&lt;/div&gt;&lt;div&gt;方案组件必须以一个字母符号开始，由第一个“：”符号将其与URL的其余部分分隔开来。方案名是大小写无关的。&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
