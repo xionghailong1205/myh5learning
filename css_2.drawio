@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T08:19:15.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="INcUNdm8eerzD0Gn9mZE" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-29T08:35:05.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="X0ZXUGVN7GSlsFggMDl-" version="20.2.2" type="github">
   <diagram id="MuhjcWemZNqgetpCeh18" name="第 1 页">
-    <mxGraphModel dx="2703" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -203,7 +203,130 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v3mEMnPOH9etplwwOSoG-40" value="&lt;h1&gt;动态伪类&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="4440" width="1340" height="230" as="geometry" />
+          <mxGeometry x="1850" y="4700" width="1340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-41" value="&lt;h1&gt;UI状态伪类&lt;/h1&gt;&lt;div&gt;与动态伪类紧密相关的是用户界面(user-interface,UI)状态伪类，这些伪类根据用户界面元素（例如复选框）的当前状态应用样式。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="6740" width="1340" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-43" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="3540" y="6440" width="1360" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-43">
+          <mxGeometry width="1360" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-45" value="伪类选择符" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fad7ac;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#b46504;gradientDirection=north;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-44">
+          <mxGeometry width="237" height="28" as="geometry">
+            <mxRectangle width="237" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-46" value="说明" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fad7ac;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#b46504;gradientDirection=north;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-44">
+          <mxGeometry x="237" width="1123" height="28" as="geometry">
+            <mxRectangle width="1123" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-47" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-43">
+          <mxGeometry y="28" width="1360" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-48" value=":enalbed" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;overflow=hidden;align=center;strokeColor=#d79b00;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-47">
+          <mxGeometry width="237" height="63" as="geometry">
+            <mxRectangle width="237" height="63" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-49" value=":root伪类选择文档的根元素。HTML中根元素始终是HTML。不同的XML语言中，根元素不同。有些XML语言甚至有多个根和元素（当然不是在同一个文档中）。在HTML文档中可以直接选择html元素，而不使用:root伪类。然而这两个选择符的特指度不同。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d6b656;align=left;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-47">
+          <mxGeometry x="237" width="1123" height="63" as="geometry">
+            <mxRectangle width="1123" height="63" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-50" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-43">
+          <mxGeometry y="91" width="1360" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-51" value=":empty" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d79b00;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-50">
+          <mxGeometry width="237" height="103" as="geometry">
+            <mxRectangle width="237" height="103" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-52" value="使用:empty伪类可以选择没有任何子代的元素，甚至连文本节点都没有（包括文本和空白）CMS经常生成没有任何内容的空元素，此时便可以使用这个伪类。例如p:empty{display:none;}能够禁止显示空段落。你可能想使用*:empty{display:none;}装饰所有空元素，但是这里有一个陷阱，:empty是能匹配HTML文档中的空元素，例如img和input，但是还能匹配里面没有内容的textarea。就匹配元素的效果而言，img和img:empty其实是一样的（不过两者在特指度上有区别）。截止2017年年末，:empty是唯一一个在匹配时考虑文本节点的CSS选择符。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d6b656;align=left;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-50">
+          <mxGeometry x="237" width="1123" height="103" as="geometry">
+            <mxRectangle width="1123" height="103" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-43">
+          <mxGeometry y="194" width="1360" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-54" value=":only-child" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d79b00;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-53">
+          <mxGeometry width="237" height="89" as="geometry">
+            <mxRectangle width="237" height="89" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-55" value="选择唯一的子代，如果想选择带超链接的图像，可以使用:only-child伪类。它选择的元素是另一个元素唯一子元素的图像加上边框，可以使用：img:only-child{border: 1px solid black;}关于:only-child伪类，有两点要注意。首先，前文说过，它始终依附在希望是唯一子元素的那个元素上，而不是父元素上。由此引出第二点，即后代选择符上使用:only-child伪类时，列出的元素不一定是父子元素。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d6b656;align=left;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-53">
+          <mxGeometry x="237" width="1123" height="89" as="geometry">
+            <mxRectangle width="1123" height="89" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-43">
+          <mxGeometry y="283" width="1360" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-57" value=":only-of-type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d79b00;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-56">
+          <mxGeometry width="237" height="48" as="geometry">
+            <mxRectangle width="237" height="48" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-58" value=":only-of-type匹配同胞中唯一的那种元素，而:only-child只匹配完全没有同胞的元素。:only-of-type指代的是元素，而不是其他任何东西。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=#d6b656;align=left;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-56">
+          <mxGeometry x="237" width="1123" height="48" as="geometry">
+            <mxRectangle width="1123" height="48" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-59" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-43">
+          <mxGeometry y="331" width="1360" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-60" value=":first-child&lt;br&gt;:last-child" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d79b00;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-59">
+          <mxGeometry width="237" height="57" as="geometry">
+            <mxRectangle width="237" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-61" value="选择第一个和最后一个子代，为一个元素的第一个或最后一个子元素应用特殊样式是十分常见的需求。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=#d6b656;align=left;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-59">
+          <mxGeometry x="237" width="1123" height="57" as="geometry">
+            <mxRectangle width="1123" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-62" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-43">
+          <mxGeometry y="388" width="1360" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-63" value=":first-of-type&lt;br&gt;:last-of-type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d79b00;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-62">
+          <mxGeometry width="237" height="59" as="geometry">
+            <mxRectangle width="237" height="59" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-64" value="选择第一个和最后一个某种元素，除了选择一个元素中的第一个和最后一个子代外，还可以选择一个元素中某种元素的第一个或最后一个。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=#d6b656;align=left;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-62">
+          <mxGeometry x="237" width="1123" height="59" as="geometry">
+            <mxRectangle width="1123" height="59" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-65" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-43">
+          <mxGeometry y="447" width="1360" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-66" value=":nth-child()&lt;br&gt;:nth-last-child()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d79b00;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-65">
+          <mxGeometry width="237" height="185" as="geometry">
+            <mxRectangle width="237" height="185" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-67" value="选择每第n个子元素，括号中可以填上任何整数。如果在某种情况下需要选择作为一个元素第93个子元素的有序列表，可以使用ol:nth-child(93)。这个选择符将匹配第93个子元素，前提是他是有序列表（不是在同胞中匹配第93个有序列表。）更强大的是，括号中可回忆使用简单的代数式定义公式。nth-child(odd) = nth-child(2n-1) nth-child(even) = nth-child(2n).如果更新DOM，添加或删除了行，无需添加或删除类。借助结构伪类，上述选择符始终能匹配更新后的DOM中的奇数行。这两个伪类可以串在一起,:nth-child(1):nth-last-child(1)实现:only-child的效果。如果不是想得到较高的特指度，没有任何原因这么做。可以使用CSS确定一个列表中有多少个列表项目，然后据此装饰：&lt;br&gt;li:only-child{width:100%;}&lt;br&gt;li:nth-child(1):nth-last-child(2),li:nth-child(2):nth-last-child(1){width:50%;}&lt;br&gt;li:nth-child(1):nth-last-child(3),li:nth-child(1):nth-last-child(3)~li{width:33.33%;}&lt;br&gt;li:nth-child(1):nth-last-child(4),li:nth-child(1):nth-last-child(4)~li{width:25%;}" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=#d6b656;align=left;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-65">
+          <mxGeometry x="237" width="1123" height="185" as="geometry">
+            <mxRectangle width="1123" height="185" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-68" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-43">
+          <mxGeometry y="632" width="1360" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-69" value=":nth-of-type&lt;br&gt;:nth-last-of-type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=#d79b00;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-68">
+          <mxGeometry width="237" height="108" as="geometry">
+            <mxRectangle width="237" height="108" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3mEMnPOH9etplwwOSoG-70" value="选择每第n个某种元素，可以使用p&amp;gt;a:nth-of-type(even)在一个段落中从第二个超链接起选择间隔的超链接。此时，其他元素(span、strong等)都被忽略，只考虑超链接。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=#d6b656;align=left;" vertex="1" parent="v3mEMnPOH9etplwwOSoG-68">
+          <mxGeometry x="237" width="1123" height="108" as="geometry">
+            <mxRectangle width="1123" height="108" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
