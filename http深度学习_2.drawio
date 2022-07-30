@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T15:58:51.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="x3hhkFnXxB9lRjU4lKbe" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T01:04:15.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_38XlY0ri34E0NpyIZup" version="20.2.2" type="github">
   <diagram id="dQl33G91v_7WCRb5gb6H" name="第 1 页">
-    <mxGraphModel dx="998" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="487" dy="277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -219,6 +219,27 @@
         </mxCell>
         <mxCell id="yuBNwfh4JPZWKL3ttyxz-63" value="&lt;h1&gt;用户名和密码&lt;/h1&gt;&lt;div&gt;更有趣的组件是用户和密码组件。很多服务器都要求输入用户名和密码才会允许用户访问数据。FTP服务器就是这样一个常见的实例。&lt;/div&gt;&lt;div&gt;如果某应用程序使用的URL方案要求输入用户名和密码，比如FTP，但用户没有提供，它通常会插入一个默认的用户名和密码。比如，如果向浏览器提供一个FTP URL，但没有指定用户名和密码，它就会插入anonymous（匿名用户）作为你的用户名，并发送一个默认密码（IE会发送IEUser。）。&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1110" y="900" width="780" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-64" value="&lt;h1&gt;路径&lt;/h1&gt;&lt;div&gt;URL的路径组件说明了资源位于服务器的什么地方。路径通常很像一个分级的文件系统路径。很像UNIX文件系统的文件系统路径。路径是服务器定位资源时所需的信息。可以用字符&quot;/&quot;将HTTP URL的路径组件划分成一些路径段(path segment)（还是与UNIX文件系统中的文件路径类似）。每个路径段都有自己的参数组件。&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1030" width="780" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-65" value="&lt;h1&gt;参数&lt;/h1&gt;&lt;div&gt;对很多方案来说，只有简单的主机名和到达对象的路径是不够的。除了服务器正在监听的端口，以及是否能够通过用户名和密码访问资源外，很多协议都还需要更多的信息才能工作。&lt;/div&gt;&lt;div&gt;负责解析URL的应用程序需要这些协议参数来访问资源。否则，另一端的服务器可能就不会为请求提供服务，或者更糟糕的是，提供错误的服务。比如像FTP这样的协议，有两种传输模式，二进制和文本形式。你肯定不希望以文本形式来传送二进制图片，这样的话，二进制图片可能会变得一团糟。&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1160" width="780" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-66" value="&lt;h1&gt;查询字符串&lt;/h1&gt;&lt;div&gt;很多资源，比如数据库服务，都可以通过提问题或进行查询来缩小所请求资源类型范围的。基本上可以把网关当作访问其他应用程序的访问点。除了有些不合规则的字符需要特别处理之外，对查询组件的格式没什么要求。按照常规，很多网关都希望查询字符串以一系列&quot;名/值&quot;对的形式出现，名值对之间用字符&quot;&amp;amp;&quot;分隔。&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1310" width="780" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-67" value="&lt;h1&gt;片段&lt;/h1&gt;&lt;div&gt;有些资源类型，比如HTML，除了资源级之外，还可以做进一步的划分。比如，对一个带有章节的大型文本文档来说，资源的URL会指向整个文本文档，但理想的情况是，能够指定资源中的那些章节。&lt;/div&gt;&lt;div&gt;为了引用部分资源或资源的一个片段，URL支持使用片段(frag)组件来表示一个资源内部的片段。比如，URL可以指向HTML文档中一个特定的图片或小节。&lt;/div&gt;&lt;div&gt;HTTP服务器通常只处理整个对象，而不是对象的片段，客户端不能将片段传送给服务器。浏览器从服务器获得了整个资源之后，会根据片段来显示你感兴趣的那部分资源。&lt;/div&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1460" width="780" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-69" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;URL快捷方式&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-71" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;web客户端可以理解并使用几种URL快捷方式。相对URL是在某资源内部指定一个资源的便捷缩略方式。很多浏览器还支持URL的“自动扩展”，也就是用户输入URL的一个关键（可记忆的）部分，然后由浏览器将其与部分填充起来。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1800" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yuBNwfh4JPZWKL3ttyxz-73" value="&lt;h1&gt;相对URL&lt;/h1&gt;&lt;div&gt;URL有两种方式:绝对的和相对的。到目前为止，我们只见过绝对URL。绝对URL中包含有访问资源所需的全部消息。&lt;/div&gt;&lt;div&gt;另一方面，相对URL是不完整的。要从相对URL中获取访问资源所需的全部信息，就必须相对于另一个，被称为其基础(base)的URL进行解析。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1930" width="440" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
