@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T11:17:10.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.2" etag="JdHTXHAUQ6dASbo0KP7p" type="github"><diagram id="PIz88Q4ysfsakxPBRKMQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-02T15:42:56.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nKzvGUoxx_rJ74zpmUyC" version="20.2.2" type="github">
+  <diagram id="PIz88Q4ysfsakxPBRKMQ" name="第 1 页">
+    <mxGraphModel dx="1051" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_GqKVmaQL-O2sTBT0yc9-1" value="&lt;h1&gt;系统编程&lt;/h1&gt;&lt;div&gt;python对操作系统服务的内置接口，使其能够称为编写可以治的维护操作系统的管理工具和部件（有时也称为Shell工具）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="550" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="_GqKVmaQL-O2sTBT0yc9-2" value="&lt;h1&gt;程序执行&lt;/h1&gt;&lt;div&gt;从两个角度看编写或运行python脚本的意义。&lt;/div&gt;&lt;div&gt;从程序员的角度来看python程序仅是一个包含Python语句的文本文件。&lt;/div&gt;&lt;div&gt;PVM不是一个独立的程序，不需要安装。本质上，PVM就是迭代运行字节码指令的一个大循环，一个接一个地完成操作。PVM是python运行时引擎，它时常表现为Python系统的一部分，并且是实际运行脚本的组件。从技术上讲，它只是所谓&quot;python解释器&quot;的最后一步。&lt;/div&gt;&lt;div&gt;在系统命令行模式下，你是在一个系统的shell中，而不是Python中，所以Python的模块文件的搜索规则不再适用。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="530" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_GqKVmaQL-O2sTBT0yc9-3" value="&lt;h1&gt;UNIX风格可执行脚本: #!&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果在Python、Linux及其他的类UNIX系统上使用Python，可以将Python代码编程为可执行程序，就像使用Shell语言编写的csh或ksh程序一样。这样的脚本往往叫做可执行脚本。简而言之，UNIX风格的可执行脚本只是包含了Python语句的一般文本文件。&lt;/div&gt;&lt;div&gt;但是它有两个特殊的属性：&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;ul&gt;&lt;li&gt;它们的第一行是特定的。脚本的第一行往往以字符#！开始（常常叫作“hash bang”）&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="390" width="530" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
